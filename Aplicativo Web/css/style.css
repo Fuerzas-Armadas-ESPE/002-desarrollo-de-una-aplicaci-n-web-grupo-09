@@ -770,3 +770,79 @@ body {
 .templatemo_contactform .btn-primary:hover {
     background: #a6d82c;
 }
+
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: #263238;
+    min-height: 250px;
+    padding: 10px 0px 25px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .container.bottom_border {
+    width: 80%; /* Ajusta este valor para cambiar el ancho */
+    max-width: 1200px; /* Opcional: establece un ancho máximo */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+.footer .row {
+    display: flex;
+    justify-content: center; /* Centra el contenido dentro de .row */
+    text-align: center; /* Centra el texto dentro de los elementos */
+    width: 100%;
+}
+
+.footer .col {
+    margin: 0 10px; /* Añade margen entre las columnas */
+    flex: 1; /* Permite que las columnas se distribuyan uniformemente */
+}
+
+.footer .footer-logo {
+    margin: 20px 0;
+}
+
+.footer .social_footer_ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.footer .social_footer_ul li {
+    margin: 0 10px;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.custom-col {
+    width: 80%; /* Ajusta este valor según sea necesario */
+    max-width: 1200px; /* Opcional: establece un ancho máximo */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    text-align: center; /* Centra el texto */
+}
+
+.footer .container.bottom_border {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center; /* Opcional: centra horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.contact-info p {
+    margin: 0; /* Elimina márgenes para mejor alineación */
+}
